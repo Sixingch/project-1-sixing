@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1024px;
+    background-color: #002CCB;
+    overflow: hidden; 
+}
+
+.lyrics{
+position: absolute;
+width: 626px;
+height: 225px;
+left: 407px;
+top: 50px;
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 50px;
+text-align: center;
+color: #ffffff;
+animation: slide 6s linear forwards;
+}
+
+@keyframes slide{
+    0% {
+        transform: translatey(0%);
+      }
+      100% {
+        transform: translatey(-700%);
+      }
+}
+
+.q{
+    position: absolute;
+    width: 626px;
+    height: 225px;
+    left: 407px;
+    top: 500px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    animation: slide2 8.5s linear forwards;
+    transition: transform 0.3s ease-in-out; 
+}
+
+@keyframes slide2{
+    0% {
+        opacity: 0%;
+      }
+    50%{
+        opacity: 0%;
+    }
+      100% {
+        opacity: 100%;
+      }
+}
+
+.q:hover{
+    transform: scale(1.2);
+}
+

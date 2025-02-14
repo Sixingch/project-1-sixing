@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+    overflow: hidden; 
+}
+
+.q{
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 15%;
+    bottom: 25%;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+  color: #002CCB;;
+}
+
+.w{    position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 40%;
+    bottom: 25%;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+  color: #002CCB;;}
+
+.e{    position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 70%;
+    bottom: 25%;
+    font-family:'Oxanium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+  color: #002CCB;;}

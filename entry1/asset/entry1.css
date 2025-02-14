@@ -1,0 +1,62 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+
+.Start{
+position: absolute;
+width: 626px;
+height: 225px;
+left: 407px;
+top: 399px;
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 100px;
+text-align: center;
+color: #002CCB;
+transition: transform 0.5s linear;
+animation: slide-in 3s ease-in-out;
+text-decoration: none;
+}
+
+@keyframes slide-in {
+    0% {
+      transform: translatey(0%);
+    }
+  
+    25% {
+      transform: translatey(100%);
+    }
+    
+    50% {
+      transform: translatey(-100%);
+    }
+    
+    75% {
+      transform: translatey(25%);
+    }
+
+    100% {
+      transform: translatey(0%);
+    }
+
+
+  }
+
+
+  .Start:hover{
+    transform: scale(1.1);
+}
+.Start:active{
+  opacity: 50%;
+}
+
+
+

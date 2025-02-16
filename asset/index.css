@@ -1,0 +1,49 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+
+.Start{
+position: absolute;
+width: 626px;
+height: 225px;
+left: 407px;
+top: 399px;
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 100px;
+text-align: center;
+color: #ffffff;
+transition: transform 0.1s linear;
+text-decoration: none;
+}
+
+  .Start:hover{
+    transform: scale(1.5);
+}
+.Start:active{
+  opacity: 50%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 80%;
+  animation: rotate 2s linear;
+}
+@keyframes rotate{
+  
+0%{transform: translatey(-400px)}
+100%{transform: translatey(0)}
+  
+}
+

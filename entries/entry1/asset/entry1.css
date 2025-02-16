@@ -27,19 +27,10 @@ body{
   transform: scale(1.2); 
 }
 
-.container2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 214px;
+.image-box {
+  text-align: center; 
+  text-decoration:none;
   font-family: 'Roboto Mono';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 100px;
-text-align: center;
-color: #002CCB;
-
 }
 
 

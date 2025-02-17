@@ -44,7 +44,7 @@ img{
 @keyframes rotate{
   
 0%{transform: translatey(-400px)}
-100%{transform: translatey(0)}
+100%{transform: translatey(0px)}
   
 }
 

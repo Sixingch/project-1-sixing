@@ -1,9 +1,46 @@
 
 body{
-    margin: 0;
-    padding: 0;
-    width: 100vw; 
+  width: 100vw; 
   height: 100vh;
-    background-color: #002CCB;
-    overflow: hidden; 
+  background-color: #002CCB;
+  overflow: hidden; 
+}
+
+.q{
+color: white;
+font-family: 'Roboto Mono';
+position: absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+text-decoration: none;
+}
+
+.q:hover{
+color: #557aff;
+}
+
+.q:active{
+  color: #1948f4;
+  }
+
+  .notear{
+    display: flex;
+    justify-content: center; 
+    height: 30%; 
+    transform: translate(0, 500px);
+    object-fit: cover;
+  
+  }
+  .notear img{
+    animation:shine 5s infinite ;
+  }
+  
+@keyframes shine{
+  0%{opacity: 100%;}
+  25%{opacity: 30%;}
+  50%{opacity: 100%;}
+  75%{opacity: 30%;}
 }

@@ -2,8 +2,8 @@
 body{
   margin: 0;
   padding: 0;
-  width: 1440px;
-  height: 1024px;
+  width: 100vw; 
+  height: 100vh;
   background-color: #ffffff;
   overflow: hidden; 
 }
@@ -32,6 +32,17 @@ body{
   text-decoration:none;
   font-family: 'Roboto Mono';
 }
+
+.line{
+    color: #002CCB;
+    font-family: 'Roboto Mono';
+    text-align: center; 
+    position: absolute; 
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+  }
 
 
 

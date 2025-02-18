@@ -1,5 +1,10 @@
 
-
+body{
+    width: 100vw; 
+    height: 100vh;
+    background-color:  #ffffff;
+    overflow: hidden; 
+}
 
 .textnormal{
 position: absolute;

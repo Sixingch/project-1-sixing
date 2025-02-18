@@ -1,5 +1,5 @@
 body{
-    overflow: hidden; 
+    overflow: visible; 
     background-color: #002CCB;
     color: white;
     font-family: 'Roboto Mono';
@@ -14,8 +14,10 @@ body{
 }
 
 .q{
+position: relative;
 text-align: center;
-padding: 20vw;
+padding: 5vw;
+max-width: 80%;
 }
 
 
@@ -27,7 +29,7 @@ animation:shine 3s ease-in-out infinite;
 color: white;
 padding: 10px 20px;
 font-size: 1.5rem;
-top: 35vw;
+top: 80vh;
 font-weight: 300;
 }
 

@@ -2,16 +2,15 @@ body{
     background-color: #002CCB;
     color: white;
     font-family: 'Roboto Mono';
-    width: 100vw; 
-    height: 100vh;
     overflow: hidden; 
 }
 
 .line{
-    margin-left:5vw;
-    margin-top: 10vw;
+
     font-size: 2rem;
     object-fit: cover;
+    text-decoration: none;
+    color: white;
 }
 
 .sun{
@@ -43,28 +42,4 @@ display: inline-block;
     content:"the first tear";
 }
 
-.image {
-    position: absolute;
-    bottom: 35vw;
-    right: 9vw;
-    width: 200px;  
-    height: 100px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.image:hover::after {
-    font-size: 2rem;
-    font-family:'Oxanium';
-    content: "To the second tear";
-    position: absolute;
-     width: 12rem;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #002CCB;
-    
-}

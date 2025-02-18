@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto Mono';
+    
+    font-size: 2rem;
+    overflow: hidden; 
+    background-color: #002CCB;
+    color: white;
+}
+
+.main{
+    position: absolute;
+    top:50%;
+    right:50%;
+    translate: (-50%,-50%);
+
+}
+
+
+.home{
+    position: absolute;
+    bottom: 1.8vw;
+    right: -30vw;
+    text-decoration: none;
+    color: white;
+
+}
+
+.hits{
+
+}
+
+.hits:hover{
+    animation:hits 1s linear infinite;
+}
+
+@keyframes hits{
+    0%{
+        translate:0vw;
+    }
+    100%{
+        translate:6.5vw;
+    }
+}
+
+.tear2{
+    display: inline-block;
+    }
+    .tear2::after{
+        content:"a tear";
+    }
+    
+    .tear2:hover::after{
+        font-family:'Dancing Script';
+        font-size: 2rem;
+        content:"the second tear";
+    }
+
+ 
+    
+   

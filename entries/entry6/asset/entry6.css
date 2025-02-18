@@ -25,8 +25,6 @@ body{
 }
 .hover-text:hover~.another-text{
     position: absolute;
- 
-    left: 0%;
     top: 10%;
     font-family: 'Oxanium';
     font-style: normal;

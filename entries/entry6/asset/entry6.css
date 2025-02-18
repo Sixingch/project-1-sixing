@@ -20,6 +20,9 @@ body{
   text-decoration: none;
 }
 
+.another-text{
+    opacity: 0;
+}
 .hover-text:hover~.another-text{
     position: absolute;
     width: 1399.88px;
@@ -35,6 +38,7 @@ body{
     align-items: center;
     text-align: center;
     color: #ffffff;
+    opacity: 1;
 
 }
 

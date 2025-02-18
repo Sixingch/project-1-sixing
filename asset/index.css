@@ -11,21 +11,24 @@ body{
 
 .Start{
 position: absolute;
-
 top: 500px;
 font-family: 'Roboto Mono';
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
-line-height: 100px;
+font-size:5vw;
+line-height: 1vw;
 text-align: center;
 color: #ffffff;
-transition: transform 0.1s linear;
 text-decoration: none;
+position: absolute;
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+transition: transform 0.1s linear;
 }
 
 .Start:hover{
-    transform: scale(1.5);
+    opacity: 0.5;
 }
 .Start:active{
   opacity: 50%;

@@ -2,7 +2,7 @@
 body{
     width: 100vw; 
     height: 100vh;
-    background-color: #002CCB;
+    background-color: #ffffff;
     overflow: hidden; 
 }
 
@@ -22,47 +22,44 @@ text-align: center;
     font-style: normal;
     font-weight: 600;
     font-size: 50vw;
-    line-height: 7vw;
+    line-height: 3vw;
     -webkit-box-reflect: below 0vw;
     }
     
 
-    
-
-
     .O{
         font-weight: 600;
-        font-size:13.944vw;
+        font-size:7.944vw;
     }
 
     .o2{
         font-weight: 600;
-        font-size: 13.5vw;
+        font-size: 7.5vw;
     }
 
     .h{
         font-weight: 600;
-       font-size: 11vw;
+       font-size: 5vw;
     }
 
     .l{
         font-weight: 600;
-        font-size: 13.7vw;
+        font-size: 7.7vw;
     }
 
     .i{
         font-weight: 600;
-        font-size: 13.4vw;
+        font-size: 7.4vw;
     }
 
     .h2{
         font-weight: 600;
-        font-size: 12vw;
+        font-size: 6vw;
     }
 
     .c{
        font-weight: 600;
-       font-size: 11vw;
+       font-size: 5vw;
     }
 
     .mouthclose{

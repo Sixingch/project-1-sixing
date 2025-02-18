@@ -25,15 +25,14 @@ body{
 }
 .hover-text:hover~.another-text{
     position: absolute;
-    width: 1399.88px;
-    height: 574.31px;
-    left: 300px;
-    top: 150px;
+ 
+    left: 0%;
+    top: 10%;
     font-family: 'Oxanium';
     font-style: normal;
     font-weight: 800;
-    font-size: 420px;
-    line-height: 503px;
+    font-size: 30vw;
+    line-height: 5vw;
     display: flex;
     align-items: center;
     text-align: center;

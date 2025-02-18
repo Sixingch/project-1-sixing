@@ -19,7 +19,7 @@ body{
     font-size: 30px;
     line-height: 48px;
     text-align: center;
-  color: #002CCB;;
+  color: #002CCB;
 }
 
 .w{    position: absolute;
@@ -33,17 +33,42 @@ body{
     font-size: 30px;
     line-height: 48px;
     text-align: center;
-  color: #002CCB;;}
+  color: #002CCB;}
 
-.e{    position: absolute;
+.e{ position: absolute;
     right: 25%;
     left: 25%;
-    top: 70%;
+    top: 55%;
     bottom: 25%;
     font-family:'Oxanium';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
-  color: #002CCB;;}
+  color: #002CCB;
+}
+
+  .x{
+    font-weight: 500;
+    font-size: 120px;
+  }
+
+
+  .c{
+    font-weight: 1000;
+    font-size: 180px;
+  }
+
+  .e:hover{
+    animation: scale 0.5s ease-in-out infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform:scale(1.1);
+    }
+    100% {
+      transform:scale(1.2);
+    }
+  }

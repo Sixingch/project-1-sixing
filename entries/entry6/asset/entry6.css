@@ -1,0 +1,58 @@
+body{
+    width: 100vw; 
+    height: 100vh;
+    background-color:  #002CCB;
+    overflow: hidden; 
+}
+
+.hover-text{
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    top: 15%;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hover-text:hover~.another-text{
+    position: absolute;
+    width: 1399.88px;
+    height: 574.31px;
+    left: 300px;
+    top: 150px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 420px;
+    line-height: 503px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.hover-text:hover{
+    color: #ffffff;
+    transform: scale(1.2);
+}
+.hover-text:active{
+    color: #5176fc;
+    transform: scale(1,0.2);
+}
+
+
+
+
+
+
+
+
+
+

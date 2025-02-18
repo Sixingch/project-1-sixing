@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/entry7.css">
+    <link rel="reset" href="asset/reset copy 7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oxanium:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour+Convergence&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour+Convergence&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+      
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const linkArray = [
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+                { text: "cause them days are gone", url: "https://sixingch.github.io/project-1-sixing/entries/entry8/entry8.html" },
+            ]; 
+    
+            const placedPositions = []; 
+            const padding = 10; 
+    
+            let centerText = document.createElement("p");
+            centerText.classList.add("center-text");
+            centerText.innerText = "I don't cry";
+            document.body.appendChild(centerText);
+    
+            function isOverlapping(x, y, width, height) {
+                return placedPositions.some(pos => {
+                    return (
+                        x < pos.x + pos.width + padding &&
+                        x + width + padding > pos.x &&
+                        y < pos.y + pos.height + padding &&
+                        y + height + padding > pos.y
+                    );
+                });
+            }
+    
+            function getRandomPosition(linkElement) {
+                let x, y, width, height, attempts = 0;
+                do {
+                    x = Math.random() * (window.innerWidth - 200);
+                    y = Math.random() * (window.innerHeight - 50);
+                    linkElement.style.left = `${x}px`;
+                    linkElement.style.top = `${y}px`;
+    
+                    document.body.appendChild(linkElement);
+                    width = linkElement.offsetWidth;
+                    height = linkElement.offsetHeight;
+    
+                    attempts++;
+                    if (attempts > 100) break; 
+                } while (isOverlapping(x, y, width, height));
+    
+                placedPositions.push({ x, y, width, height });
+            }
+    
+            linkArray.forEach(linkData => {
+                let linkElement = document.createElement("a");
+                linkElement.classList.add("random-link");
+                linkElement.innerText = linkData.text;
+                linkElement.href = linkData.url;
+                linkElement.target = "_blank"; 
+                getRandomPosition(linkElement);
+                document.body.appendChild(linkElement);
+            });
+        });
+    </script>
+    
+      
+
+</body>
+</html>
+  

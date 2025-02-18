@@ -1,0 +1,125 @@
+
+
+
+.textnormal{
+position: absolute;
+width: 458.87px;
+height: 412.92px;
+left: 450px;
+top: 254.6px;
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 600;
+font-size: 262.586px;
+line-height: 328px;
+color: #002CCB;
+}
+
+
+.textreflected {
+transform: scaleX(-1);
+transform: scaley(-1);
+display: inline-block; 
+position: absolute;
+width: 458.87px;
+height: 412.92px;
+left: 450px;
+top: 350px;
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 600;
+font-size: 262.586px;
+line-height: 328px;
+color: #002CCB;
+}
+
+.textnormal2{
+position: absolute;
+width: 758.87px;
+height: 345.96px;
+left: 1008.13px;
+top: 254.6px;
+font-family: 'Oxanium';
+font-style: normal;
+font-weight: 600;
+font-size: 262.586px;
+line-height: 328px;
+display: flex;
+align-items: center;
+color: #002CCB;
+}
+
+.textreflected2 {
+    transform: scaleX(-1);
+    transform: scaley(-1);
+    display: inline-block; 
+    position: absolute;
+    width: 758.87px;
+    height: 412.92px;
+    left: 1008.13px;
+    top: 350px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 262.586px;
+    line-height: 328px;
+    color: #002CCB;
+    }
+
+    .O{
+        font-weight: 600;
+        font-size: 262.586px;
+    }
+
+    .o2{
+        font-weight: 600;
+        font-size: 230px;
+    }
+
+    .h{
+        font-weight: 600;
+       font-size: 150px;
+    }
+
+    .l{
+        font-weight: 600;
+        font-size: 240px;
+    }
+
+    .i{
+        font-weight: 600;
+        font-size: 210px;
+    }
+
+    .h2{
+        font-weight: 600;
+        font-size: 170px;
+    }
+
+    .c{
+       font-weight: 600;
+       font-size: 150px;
+    }
+
+    .mouthclose{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        animation:shine 2s infinite ;
+    }
+        @keyframes shine{
+            0%{opacity: 100%;}
+            25%{opacity: 10%;}
+            50%{opacity: 100%;}
+            75%{opacity: 10%;}
+          }
+   
+
+
+    .mouthclose:hover{
+        transform: scale(1.2);
+        animation-play-state:paused; 
+    }
+
+  

@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-link {
+    position: absolute;
+    font-size: 20px;
+    color: #002CCB;
+    font-family: 'roboto mono';
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+@keyframes fade {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 100px);
+        opacity: 0;
+    }
+}
+
+.random-link:hover{
+    animation:fade 1s forwards;
+  }
+
+
+.center-text {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #002CCB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'roboto mono';
+}
+

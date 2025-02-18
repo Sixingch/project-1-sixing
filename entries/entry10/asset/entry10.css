@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    height: 100vh;
+    background-color: #ffffff;
+    overflow: hidden; 
+  }
+  
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container img{
+    width: 300px;
+    height: auto;
+  }
+  .container img:nth-child(1):hover {
+    transform: scale(1.2); 
+  }
+  
+  .image-box {
+    text-align: center; 
+    text-decoration:none;
+    font-family: 'Roboto Mono';
+  }
+  
+  .line{
+      color: #002CCB;
+      font-family: 'Roboto Mono';
+      text-align: center; 
+      position: absolute; 
+      top: 20%; 
+      left: 50%;
+      transform: translateX(-50%); 
+      width: 100%;
+    }
+  
+  
+  .change::after{
+    content:"4 tears"
+  }
+
+  .change:hover::after{
+    content:"real tears"
+  }
+  
+  
+  
+  
+  

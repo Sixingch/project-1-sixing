@@ -44,7 +44,14 @@ body{
     width: 100%;
   }
 
+  .change::after{
+    content:"wanna see my 4 tears?"
+  }
 
+  .change:hover::after{
+    content:"I don't cry"
+  }
+  
 
 
 

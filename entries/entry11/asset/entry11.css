@@ -1,0 +1,70 @@
+body{
+    background-color: #002CCB;
+    color: white;
+    font-family: 'Roboto Mono';
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.line{
+    margin-left:5vw;
+    margin-top: 10vw;
+    font-size: 2rem;
+    object-fit: cover;
+}
+
+.sun{
+display: inline-block;
+animation:set 7s linear;
+}
+
+@keyframes set{
+    0%{
+        transform: translateX(0vw) translateY(0vh);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(80vw) translateY(80vh);
+        opacity: 0;
+    }
+}
+
+.tear1{
+display: inline-block;
+}
+.tear1::after{
+    content:"shed a tear";
+}
+
+.tear1:hover::after{
+    font-family:'Dancing Script';
+    font-size: 2.5rem;
+    content:"the first tear";
+}
+
+.image {
+    position: absolute;
+    bottom: 35vw;
+    right: 9vw;
+    width: 200px;  
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image:hover::after {
+    font-size: 2rem;
+    font-family:'Oxanium';
+    content: "To the second tear";
+    position: absolute;
+     width: 12rem;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #002CCB;
+    
+}

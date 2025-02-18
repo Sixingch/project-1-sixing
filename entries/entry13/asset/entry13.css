@@ -1,0 +1,30 @@
+
+
+
+
+.link{
+ text-decoration: none;   
+ color:#002CCB ;
+ font-family: 'Roboto Mono';
+ font-size: 2rem;
+    position: fixed;
+    bottom: 5vw;
+    right: 7vw;
+}
+
+
+.tear3{
+    display: inline-block;
+    }
+    .tear3::after{
+        content:"two tears";
+    }
+    
+    .tear3:hover::after{
+        font-family:'Dancing Script';
+        font-size: 2rem;
+        content:"the third&forth tear";
+    }
+
+ 
+
